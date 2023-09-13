@@ -1,0 +1,455 @@
+body {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+background-color: #142D4C;
+color: white;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #142D4C;
+  margin: 0;
+  align-items: center;
+  
+}
+
+.logo-page {
+  display: flex;
+  height: 100px;
+  width: 100px;
+  margin-left: 110px;
+  cursor: pointer;
+}
+
+.nombre-page {
+  align-items: center;
+  display: flex;
+  margin: 0;
+  align-items: center;
+  padding-left: 10px;
+  font-size: 30px;
+}
+
+a {
+  flex:auto;
+  padding-right: 40px;
+  margin-right: 110px;
+  font-size: 1.7rem;
+  font-weight: 600;
+  text-decoration: none;
+  color: white;      
+  margin-left: auto; 
+}
+
+a:hover {
+  color: #FEDE79;
+}
+
+.linea {
+  
+  width: 1695px;
+  
+  padding-right: 6px;
+  margin-left: 120px;
+  margin-bottom: 0px;
+}
+
+.texto {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-align: center;
+  font-size: 65px;
+}
+
+table, td {
+  border: 3px solid white;
+  border-collapse: collapse;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: white;
+  border-color: white;
+  margin-left: 80px;
+  font-size: 60px;
+  padding: 3%;
+  margin-left: 560px;
+  }
+  .titulo {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: white;
+  }
+  
+  .check {
+    width: 60px;
+    height: 70px;
+    margin: 0;
+    padding: 100%;
+  } 
+  
+  /* Fin de estilos de "Inicio"
+  
+  
+    
+/* Inicio de estilos de "posts" */
+
+
+
+.cuadro-blanco {
+  background-color: white;
+  width: 730px;
+  height: 780px;
+  position: absolute;
+  left: 600px;
+  top:140px
+}
+
+.profile-photo {
+  width: 110px;
+  height: 110px;
+  position: absolute;
+  left: 40px;
+  top: 60px;
+
+}
+
+.profile-name {
+  color: black;
+  position: absolute;
+  left: 154px;
+  top: 60px;
+  font-weight: bold;
+  font-size: x-large;
+}
+
+.ubication {
+color: #5D6D7D;
+position: absolute;
+left: 154px;
+top:  100px;
+font-weight: bold;
+font-size: medium;
+}
+
+.post {
+width: 100%;
+height: 60%;
+position: absolute;
+left: 0px;
+top: 187px;
+}
+
+.like-buton {
+height: 45px;
+width: 50px;
+position: absolute;
+top: 666px;
+left: 13px
+}
+
+.comment-buton {
+  height: 45px;
+  width: 50px;
+  position: absolute;
+  top: 666px;
+  left: 63px
+}
+
+.send-buton {
+  height: 45px;
+  width: 40px;
+  position: absolute;
+  top: 666px;
+  left: 120px
+}
+
+.author-comment{
+color: black;
+font-size: medium;
+position: absolute;
+top: 710px;
+left: 20px;
+font-weight: bold;
+
+}
+
+.comment {
+resize: none;
+border: none;
+position: absolute;
+top: 727px;
+left: 137px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+color: black;
+width: 80%;
+height: 3%;
+}
+
+/* Fin estilos "post" */
+
+/* Inicio estilos "comentarios" */
+
+.comentarios {
+background-color: white;
+width: 1040px;
+height: 500px;
+position: absolute;
+left: 430px;
+top: 250px;
+}
+
+.new-comment{
+position: relative;
+left: 70px;
+top: 160px;
+font-size: 20px;
+width: 890px;
+height: 200px;
+border-color: black;
+font-weight: 100px;
+resize: none;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.comment-buton-2  {
+  height: 45px;
+  width: 50px;
+  position: absolute;
+  top: 415px;
+  left: 70px;
+}
+
+.number-comments {
+  color: black;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ; 
+  position: absolute;
+  font-weight: bold;
+  font-size: 22px;
+  top: 403px;
+  left: 125px;
+}
+
+
+
+.retweet-buton {
+  height: 70px;
+  width: 60px;
+  position: absolute;
+  top: 405px;
+  left: 180px;
+
+}
+
+.number-retweets{
+  color: black;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ; 
+  position: absolute;
+  font-weight: bold;
+  font-size: 22px;
+  top: 403px;
+  left: 240px;
+
+}
+
+.like-buton-2 {
+  height: 43px;
+  width: 48px;
+  position: absolute;
+  top: 417px;
+  left: 290px;
+}
+
+.number-likes {
+  color: black;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ; 
+  position: absolute;
+  font-weight: bold;
+  font-size: 22px;
+  top: 403px;
+  left: 340px;
+}
+
+.upload-buton{
+  height: 43px;
+  width: 48px;
+  position: absolute;
+  top: 417px;
+  left: 390px;
+
+}
+
+/* Fin estilos "comentarios" */
+
+/* Inicio estilos "Perfil" */
+
+.box-profile-1 {
+background-color: white;
+width: 440px;
+height: 750px;
+border-radius: 25px;
+position: absolute;
+left: 130px;
+top: 160px;
+}
+
+.profile-name-2 {
+  color: black;
+  font-size: 36px;
+  font-weight: bold;
+  position: absolute;
+  left: 93px;
+}
+
+.ubication-2  {
+  color: #5D6D7D;
+  font-size: 18px;
+  font-weight: bold;
+  position: absolute;
+  left: 130px;
+  top: 70px ;
+
+}
+
+.profile-photo-2{
+width: 170px;
+height: 170px;
+position: absolute;
+top: 118px;
+left: 120px;
+}
+
+.og-name {
+  color: black;
+  font-size: 36px;
+  font-weight: bold;
+  position: absolute;
+  left: 130px;
+  top: 260px;
+}
+
+.email-photo {
+width: 58px;
+height: 50px;
+position: absolute;
+bottom: 320px;
+left: 42px;
+}
+
+.email-adress {
+  color: black;
+  font-size: 23px;
+  font-weight: bold;
+  position: absolute;
+  top: 365px;
+  left: 107px;
+}
+
+.web-photo{
+width: 65px;
+height: 55px;
+position: absolute;
+bottom: 237px;
+left: 38px;
+}
+
+
+.web-name{
+  color: black;
+  font-size: 23px;
+  font-weight: bold;
+  position: absolute;
+  top: 445px;
+  left: 110px;
+}
+
+.telefono-photo {
+  width: 62px;
+  height: 55px;
+  position: absolute;
+  bottom: 157px;
+  left: 40px;
+}
+
+.phone-number{
+  color: black;
+  font-size: 23px;
+  font-weight: bold;
+  position: absolute;
+  top: 530px;
+  left: 110px;
+
+}
+
+.box-profile-2 {
+  background-color: white;
+  width: 440px;
+  height: 750px;
+  border-radius: 25px;
+  position: absolute;
+  left: 730px;
+  top: 160px;
+  }
+
+.profile-name-3 {
+  color: black;
+  font-size: 36px;
+  font-weight: bold;
+  position: absolute;
+  left: 130px;
+}
+
+.ubication-3 {
+  color: #5D6D7D;
+  font-size: 18px;
+  font-weight: bold;
+  position: absolute;
+  left: 135px;
+  top: 70px;
+
+}
+
+.og-name-2  {
+  color: black;
+  font-size: 36px;
+  font-weight: bold;
+  position: absolute;
+  left: 150px;
+  top: 250px;
+}
+
+.box-profile-3 {
+ background-color: white;
+  width: 440px;
+  height: 750px;
+  border-radius: 25px;
+  position: absolute;
+  left: 1330px;
+  top: 160px;
+}
+
+.profile-name-4 {
+  color: black;
+  font-size: 36px;
+  font-weight: bold;
+  position: absolute;
+  left: 130px;
+}
+
+.ubication-4 {
+  color: #5D6D7D;
+  font-size: 18px;
+  font-weight: bold;
+  position: absolute;
+  left: 135px;
+  top: 70px;
+}
+
+.og-name-3 {
+  color: black;
+  font-size: 36px;
+  font-weight: bold;
+  position: absolute;
+  left: 150px;
+  top: 250px;
+
+}
